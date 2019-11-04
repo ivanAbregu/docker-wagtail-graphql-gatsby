@@ -1,0 +1,24 @@
+version: '3.1'
+services:
+  wagtail:
+    build: ./wagtail
+    image: wagtail
+    container_name: wagtail
+    command: ./entrypoint.sh
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./wagtail:/app
+    ports:
+      - 8001:8000
+
+  gatsby:
+    build: ./gatsby
+    image: gatsby
+    container_name: gatsby
+    command: ./entrypoint.sh
+    volumes:
+      - ./gatsby:/app
+      - /app/node_modules
+    ports:
+      - 8000:8000
