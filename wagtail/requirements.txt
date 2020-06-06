@@ -14,7 +14,7 @@ colorthief==0.2.1
 constantly==15.1.0
 cryptography==2.7
 daphne==1.4.2
-Django==2.2.6
+Django==2.2.13
 django-cors-headers==3.1.1
 django-modelcluster==4.4
 django-taggit==0.24.0
