@@ -19,7 +19,7 @@ django-cors-headers==3.1.1
 django-modelcluster==4.4
 django-taggit==0.24.0
 django-treebeard==4.3
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 draftjs-exporter==2.1.7
 graphene==2.1.8
 graphene-django==2.6.0
