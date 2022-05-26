@@ -44,7 +44,7 @@ scour==0.37
 singledispatch==3.4.0.3
 six==1.12.0
 sqlparse==0.3.0
-Twisted==19.7.0
+Twisted==22.4.0
 txaio==18.8.1
 Unidecode==1.1.1
 urllib3==1.25.6
